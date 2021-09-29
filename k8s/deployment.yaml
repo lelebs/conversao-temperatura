@@ -1,4 +1,4 @@
-# Deployment do python
+# Deployment conversao-temperatura
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -18,7 +18,7 @@ spec:
         ports:
           - containerPort: 8080
 ---
-# Service python
+# Service conversao-temperatura
 apiVersion: v1
 kind: Service
 metadata:
